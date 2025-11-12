@@ -70,8 +70,8 @@ describe('DxSnackbar component testing', () => {
     await expect(component).toBeDisplayed();
     let messageElement = await component.$('>>>span[data-testid="dx-snackbar-message"]').getElement();
     await expect(messageElement).toBeExisting();
-    let svgIcon = await component.shadow$('dx-svg-icon').getElement();
-    await expect(svgIcon).toBeExisting();
+    let svgInfoIcon = await component.shadow$('icon-information').getElement();
+    await expect(svgInfoIcon).toBeExisting();
   });
 
   it('DxSnackbar - should render with buttons in the slot', async () => {
