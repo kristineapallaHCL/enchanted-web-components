@@ -33,4 +33,5 @@ export enum DxInputFieldType {
   CLEAR_QUERY = 'clearQuery',
   SELECTION = 'selection',
   SELECT_ALL = 'selectAll',
+  PARENT_ID_LOCATION = 'parentIdLocation',
 }
