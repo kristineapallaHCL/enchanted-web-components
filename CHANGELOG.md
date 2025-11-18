@@ -3,6 +3,16 @@
 ## Unreleased
 
 ### Added
+
+### Fixed
+
+### Changed
+
+### Breaking changes
+
+## 1.1.0
+
+### Added
 - Added focus trap functionality in `dx-preview` component to improve keyboard navigation
 - Added `_focusButton()` public method in `dx-button` component
 - Added `_focusButton()` public method in `dx-icon-button` component
@@ -14,10 +24,6 @@
 
 ### Fixed
 - Fixed intermittent test failure in `dx-preview` zoom percentage toggle test
-
-### Changed
-
-### Breaking changes
 
 ## 1.0.1
 
