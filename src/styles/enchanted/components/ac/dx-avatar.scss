@@ -47,8 +47,6 @@
   }
 
   &::part(avatar-span-rounded) {
-    height: 16px;
-    width: 16px;
     @include typography.caption;
     border-radius: 2px;
     padding: 5px;
