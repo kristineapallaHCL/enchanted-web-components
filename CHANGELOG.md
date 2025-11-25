@@ -5,6 +5,7 @@
 ### Added
 
 ### Fixed
+- Fixed the icon bug for sorting of `dx-data-grid`.
 
 ### Changed
 
