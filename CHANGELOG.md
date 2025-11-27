@@ -14,6 +14,7 @@
 ### Changed
 - Changed `dx-dialog` accessibility implementation to use Lit reactive state for `role`, `aria-label`, `tabindex`, and content visibility management
 - Updated `dx-dialog` live region to be part of the template instead of dynamically created
+- Set the correct border and outline color on the dx-avatar component
 
 ### Breaking changes
 

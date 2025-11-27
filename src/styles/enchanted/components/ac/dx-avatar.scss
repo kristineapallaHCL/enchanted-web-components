@@ -105,59 +105,81 @@
     font-weight: 700;
   }
 
-  &::part(avatar-default-color) {
+ &::part(avatar-default-color) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, GRAY800)};
     background-color: map.get(themeMap.$enchantedPalette, GRAY100);
+    border-color: #{map.get(themeMap.$enchantedPalette, GRAY800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, GRAY800)};
   }
 
   &::part(avatar-red) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, RED800)};
     background-color: map.get(themeMap.$enchantedPalette, RED100);
+    border-color: #{map.get(themeMap.$enchantedPalette, RED800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, RED800)};
   }
 
   &::part(avatar-orange) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, ORANGE800)};
     background-color: map.get(themeMap.$enchantedPalette, ORANGE100);
+    border-color: #{map.get(themeMap.$enchantedPalette, ORANGE800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, ORANGE800)};
   }
 
   &::part(avatar-yellow) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, YELLOW800)};
     background-color: map.get(themeMap.$enchantedPalette, YELLOW100);
+    border-color: #{map.get(themeMap.$enchantedPalette, YELLOW800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, YELLOW800)};
   }
 
   &::part(avatar-lime) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, LIME800)};
     background-color: map.get(themeMap.$enchantedPalette, LIME100);
+    border-color: #{map.get(themeMap.$enchantedPalette, LIME800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, LIME800)};
   }
 
   &::part(avatar-green) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, GREEN800)};
     background-color: map.get(themeMap.$enchantedPalette, GREEN100);
+    border-color: #{map.get(themeMap.$enchantedPalette, GREEN800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, GREEN800)};
   }
 
   &::part(avatar-teal) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, TEAL800)};
     background-color: map.get(themeMap.$enchantedPalette, TEAL100);
+    border-color: #{map.get(themeMap.$enchantedPalette, TEAL800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, TEAL800)};
   }
 
   &::part(avatar-blue) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, BLUE800)};
     background-color: map.get(themeMap.$enchantedPalette, BLUE100);
+    border-color: #{map.get(themeMap.$enchantedPalette, BLUE800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, BLUE800)};
   }
 
   &::part(avatar-indigo) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, INDIGO800)};
     background-color: map.get(themeMap.$enchantedPalette, INDIGO100);
+    border-color: #{map.get(themeMap.$enchantedPalette, INDIGO800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, INDIGO800)};
   }
 
   &::part(avatar-purple) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, PURPLE800)};
     background-color: map.get(themeMap.$enchantedPalette, PURPLE100);
+    border-color: #{map.get(themeMap.$enchantedPalette, PURPLE800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, PURPLE800)};
   }
 
   &::part(avatar-pink) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, PINK800)};
     background-color: map.get(themeMap.$enchantedPalette, PINK100);
+    border-color: #{map.get(themeMap.$enchantedPalette, PINK800)};
+    outline-color: #{map.get(themeMap.$enchantedPalette, PINK800)};
   }
 
   #avatar-container {
