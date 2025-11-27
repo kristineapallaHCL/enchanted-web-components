@@ -105,10 +105,11 @@
     font-weight: 700;
   }
 
-  &::part(avatar-default-color) {
-    --icon-theme-color: #{map.get(themeMap.$enchantedPalette, GRAY800)};
-    background-color: map.get(themeMap.$enchantedPalette, GRAY100);
-  }
+  // &::part(avatar-default-color) {
+  //   --icon-theme-color: #{map.get(themeMap.$enchantedPalette, GRAY800)};
+  //   background-color: map.get(themeMap.$enchantedPalette, GRAY100);
+  //   outline-color: rgba(map.get(themeMap.$enchantedPalette, GRAY100), 0.2);
+  // }
 
   &::part(avatar-red) {
     --icon-theme-color: #{map.get(themeMap.$enchantedPalette, RED800)};
