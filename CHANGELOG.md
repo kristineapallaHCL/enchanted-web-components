@@ -5,6 +5,14 @@
 ### Added
 
 ### Fixed
+
+### Changed
+
+### Breaking changes
+
+## 1.2.1
+
+### Fixed
 - Refactored `dx-dialog` component to use reactive state properties (`@state()`) for ARIA attributes instead of direct DOM manipulation, improving maintainability and alignment with Lit's reactive programming model
 - Fixed `dx-dialog` test for auto-focus behavior to properly check dialog element focus state
 - Fixed `dx-breadcrumbs` component list styling by adding `list-style-type: none` to ensure proper rendering
@@ -14,9 +22,7 @@
 ### Changed
 - Changed `dx-dialog` accessibility implementation to use Lit reactive state for `role`, `aria-label`, `tabindex`, and content visibility management
 - Updated `dx-dialog` live region to be part of the template instead of dynamically created
-- Set the correct border and outline color on the dx-avatar component
-
-### Breaking changes
+- Set the correct border and outline color on the `dx-avatar` component
 
 ## 1.2.0
 
