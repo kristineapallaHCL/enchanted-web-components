@@ -50,14 +50,12 @@
   &::part(avatar-span-rounded) {
     @include typography.caption;
     border-radius: 2px;
-    padding: 5px;
     color: var(--icon-theme-color);
   }
 
   &::part(avatar-span-circular) {
     @include typography.caption;
     border-radius: 50%;
-    padding: 5px;
     color: var(--icon-theme-color);
   }
 
